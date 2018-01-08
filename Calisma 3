@@ -1,0 +1,24 @@
+	import java.util.Scanner;
+public class calisma3 {
+
+	public static class Siralama {
+
+		public static void main(String[] args) {			
+					Scanner MorRobot = new Scanner(System.in);
+					
+							int a,b;
+							
+							System.out.println("Bugünün tarihini giriniz: ");
+							a = MorRobot.nextInt();
+							System.out.println("Doğum Tarihinizi giriniz: ");
+							System.out.println("(YALNIZCA YIL)");
+							b = MorRobot.nextInt();
+							
+							System.out.println("Yaşınız: "+ (a-b));
+							
+							
+							
+							
+							
+						}
+	}}
